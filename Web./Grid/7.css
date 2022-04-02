@@ -1,0 +1,105 @@
+html, body
+{
+    margin: 0%;
+    padding: 0%;
+    height: 100%;
+}
+
+.grid-container
+{   
+    padding: 5vh;
+    gap: 2vh;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    
+    
+   
+       
+   
+    
+
+    
+    background-color: rgb(45 48 65);
+    
+    align-content: space-around;
+    
+    
+    
+   
+}
+
+.grid-item 
+{
+    
+    padding: 16vh;
+   
+    
+    
+}
+
+.grid-item-1
+{   
+    background-color:  rgb(240 164 108); 
+    
+}
+.grid-item-2{
+    background-color:  rgb(75 164 137);
+}
+.grid-item-3
+{
+    
+    background-color: rgb(255 86 80);
+}
+.grid-item-4
+{
+    background-color:  rgb(75 164 137);
+    padding: 1vh;
+    gap: 2vh;
+    display: grid;
+    grid-gap: 1vh;
+    align-content: space-around;
+}
+
+.grid-inside-1
+{
+    background-color: white;
+    grid-area: 1/1/span 1/ span 2;
+    padding: 13vh;
+    background-color:  rgb(137, 225, 200);
+}
+
+.grid-inside-2
+{   
+    grid-area: 2/1 /span 1 /span 1;
+    background-color:  rgb(87, 220, 180);
+    padding: 13vh;
+
+}
+
+.grid-inside-3
+
+{   
+    grid-area: 2/2 /span 1 /span 1;
+    background-color:  rgb(240 164 108);
+    padding: 13vh;
+}
+
+
+
+
+
+
+/* 
+237 137 101
+
+240 164 108
+
+75 164 137
+
+91 190 162
+
+110 215 187
+
+
+45 48 65*/
+
